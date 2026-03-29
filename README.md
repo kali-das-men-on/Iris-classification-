@@ -27,7 +27,7 @@ The project walks through the full machine learning pipeline, including data pre
 
 Data preprocessing steps included:
 
-* Handling missing values
+* Checking for missing values
 * Feature scaling (for SVM)
 * Train-test split
 
