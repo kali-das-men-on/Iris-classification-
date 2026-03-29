@@ -4,7 +4,7 @@
 
 This project implements and compares two widely used machine learning models—Random Forest and Support Vector Machine (SVM)—for a supervised classification task. The goal is to evaluate model performance, understand trade-offs between approaches, and identify the most important features driving predictions.
 
-The project walks through the full machine learning pipeline, including data preprocessing, model training, hyperparameter tuning, evaluation, and interpretation.
+The project uses 4 features - sepal_length, sepal_width, petal_length, petal_width to predict the species of the iris flower (whether it is Setosa, Versicolor, or Virginica) and walks through the full machine learning pipeline, including data preprocessing, model training, hyperparameter tuning, evaluation, and interpretation.
 
 ---
 
