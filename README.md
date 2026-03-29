@@ -67,15 +67,6 @@ Both models were evaluated using cross-validation and the following metrics:
 * **Recall** – Ability to find all positive instances
 * **F1-score** – Balance between precision and recall
 
-### Results Summary
-
-| Model         | Precision | Recall | F1 Score |
-| ------------- | --------- | ------ | -------- |
-| Random Forest | XX        | XX     | XX       |
-| SVM           | XX        | XX     | XX       |
-
-*(Replace XX with your actual results)*
-
 ---
 
 ## Key Insights
@@ -108,31 +99,6 @@ project/
 │── README.md
 │── requirements.txt
 ```
-
----
-
-## How to Run
-
-1. Clone the repository:
-
-```
-git clone https://github.com/yourusername/repo-name.git
-cd repo-name
-```
-
-2. Install dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Run the project:
-
-```
-python main.py
-```
-
----
 
 ## Technologies Used
 
