@@ -1,0 +1,162 @@
+# Random Forest & Support Vector Machine Classification
+
+## Overview
+
+This project implements and compares two widely used machine learning models—Random Forest and Support Vector Machine (SVM)—for a supervised classification task. The goal is to evaluate model performance, understand trade-offs between approaches, and identify the most important features driving predictions.
+
+The project walks through the full machine learning pipeline, including data preprocessing, model training, hyperparameter tuning, evaluation, and interpretation.
+
+---
+
+## Objectives
+
+* Train a Random Forest classifier and tune key hyperparameters
+* Implement an SVM model with different kernels
+* Evaluate both models using cross-validation
+* Compare performance using precision, recall, and F1-score
+* Analyze feature importance to interpret model behavior
+
+---
+
+## Dataset
+
+* **Source:** (Insert dataset name or link)
+* **Samples:** (e.g., 10,000 observations)
+* **Features:** (e.g., 20 numerical + categorical features)
+* **Target Variable:** (binary / multi-class classification)
+
+Data preprocessing steps included:
+
+* Handling missing values
+* Feature scaling (for SVM)
+* Train-test split
+
+---
+
+## Methods
+
+### 1. Random Forest
+
+An ensemble learning method that builds multiple decision trees and aggregates their predictions.
+
+**Key hyperparameters tuned:**
+
+* Number of trees (`n_estimators`)
+* Maximum tree depth (`max_depth`)
+* Minimum samples per split
+
+---
+
+### 2. Support Vector Machine (SVM)
+
+A model that finds the optimal hyperplane to separate classes.
+
+**Key configurations:**
+
+* Kernels: Linear, RBF
+* Regularization parameter (`C`)
+* Kernel coefficient (`gamma`)
+
+---
+
+## Model Evaluation
+
+Both models were evaluated using cross-validation and the following metrics:
+
+* **Precision** – Accuracy of positive predictions
+* **Recall** – Ability to find all positive instances
+* **F1-score** – Balance between precision and recall
+
+### Results Summary
+
+| Model         | Precision | Recall | F1 Score |
+| ------------- | --------- | ------ | -------- |
+| Random Forest | XX        | XX     | XX       |
+| SVM           | XX        | XX     | XX       |
+
+*(Replace XX with your actual results)*
+
+---
+
+## Key Insights
+
+* Random Forest performed better on (e.g., noisy / nonlinear data)
+* SVM performed better when (e.g., data was well-separated)
+* Feature importance analysis showed that **(top features)** were the most influential
+* Hyperparameter tuning significantly improved model performance
+
+---
+
+## Visualizations
+
+The project includes:
+
+* Decision boundary plots (for SVM)
+* Feature importance plots (Random Forest)
+* Model comparison charts
+
+---
+
+## Project Structure
+
+```
+project/
+│── data/
+│── notebooks/
+│── src/
+│── results/
+│── README.md
+│── requirements.txt
+```
+
+---
+
+## How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/yourusername/repo-name.git
+cd repo-name
+```
+
+2. Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+3. Run the project:
+
+```
+python main.py
+```
+
+---
+
+## Technologies Used
+
+* Python
+* scikit-learn
+* pandas
+* numpy
+* matplotlib
+
+---
+
+## Future Improvements
+
+* Test additional models (e.g., Gradient Boosting, Neural Networks)
+* Perform deeper hyperparameter optimization (GridSearch / RandomSearch)
+* Use a larger or more complex dataset
+* Deploy the model as an API or web app
+
+---
+
+## Author
+
+Kalidas Menon
+University of Massachusetts Amherst
+Computer Science & Economics
+
+---
