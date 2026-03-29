@@ -20,10 +20,10 @@ The project walks through the full machine learning pipeline, including data pre
 
 ## Dataset
 
-* **Source:** (Insert dataset name or link)
-* **Samples:** (e.g., 10,000 observations)
-* **Features:** (e.g., 20 numerical + categorical features)
-* **Target Variable:** (binary / multi-class classification)
+* **Source:** iris.csv
+* **Samples:** 150 observations)
+* **Features:** 4 Features - sepal_length, sepal_width, petal_length, petal_width	
+* **Target Variable:** species
 
 Data preprocessing steps included:
 
