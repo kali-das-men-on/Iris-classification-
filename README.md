@@ -21,7 +21,7 @@ The project walks through the full machine learning pipeline, including data pre
 ## Dataset
 
 * **Source:** iris.csv
-* **Samples:** 150 observations)
+* **Samples:** 150 observations
 * **Features:** 4 Features - sepal_length, sepal_width, petal_length, petal_width	
 * **Target Variable:** species
 
